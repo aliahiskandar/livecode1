@@ -1,0 +1,14 @@
+READ nilai
+INPUT nilai
+IF (nilai>=80 && nilai<=100)
+	SHOW "A"
+ELSE IF(nilai>=65 && nilai<=79)
+	SHOW "B"
+ELSE IF (nilai>=50 && nilai <=64)
+	SHOW "C"
+ELSE IF (nilai>=35 && nilai<=49)
+	SHOW "D"
+ELSE IF (nilai>=0 && nilai <=35)
+	SHOW "E"
+ELSE
+	SHOW "Masukkan angka dengan benar
